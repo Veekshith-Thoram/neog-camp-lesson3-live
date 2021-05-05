@@ -118,6 +118,9 @@ footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
+    /* bottom: 0;
+    width:100%;
+    position: fixed; */
     border-top-right-radius: 1rem;
 }
 .footer .footer-header{
