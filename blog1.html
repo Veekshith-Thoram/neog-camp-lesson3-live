@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog | RUST</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .header {
+            text-align: center;
+        }
+
+        #rust-img {
+            width: 400px;
+            height: 400px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header heading-inverted">
+        <img id="rust-img" src="/images/rustt.png" />
+        <h1>Rust</h1>
+    </div>
+
+    <div class="content">
+        <p>Rust is a multi-paradigm programming language, especially for safe
+            concurrency. Rust has been voted as the most loved programming language in Stackoverflow since the year
+            2016.
+            We use mainly in house and OSS software, and used for insfrastructure and devops tools as well as
+            cryptographic key management services.
+            Rust solves pain points present in many other languages, providing a solid step forward with a limited
+            number of downsides.
+            Rust is intended to be a language for highly concurrent and highly safe systems,[54] and programming in the
+            large, that is, creating and maintaining boundaries that preserve large-system integrity.[55] This has led
+            to a feature set with an emphasis on safety, control of memory layout, and concurrency.
+        </p>
+
+        <h2>History of rust</h2>
+        <p>The language grew out of a personal project begun in 2006 by Mozilla employee Graydon Hoare.
+            Mozilla began sponsoring the project in 2009 and announced it in 2010.
+            Rust 1.0, the first stable release, was released on May 15, 2015. Following 1.0, stable point releases are
+            delivered every six weeks, while features are developed in nightly Rust and then tested with beta releases
+            that last six weeks.
+            In January 2014, before the first stable release, Rust 1.0, the editor-in-chief of Dr. Dobb's, Andrew
+            Binstock, commented on Rust's chances of becoming a competitor to C++ and to the other up-and-coming
+            languages D, Go, and Nim (then Nimrod).
+            <br>
+            <br>
+            Rust has a foreign function interface (FFI) that can be called from e.g. C language, and can call C. While
+            calling C++ has historically been problematic (from any language), Rust has a library, CXX, to allow calling
+            to or from C++, and "CXX has zero or negligible overhead".
+            The Rust Core Team acknowledged the severe impact of the layoffs and announced that plans for a Rust
+            foundation were underway. The first goal of the foundation would be taking ownership of all trademarks and
+            domain names, and also take financial responsibility for their costs.
+            On February 8, 2021 the formation of the Rust Foundation was officially announced by its five founding
+            companies (AWS, Huawei, Google, Microsoft, and Mozilla).
+
+            On April 6, 2021, Google announced support for Rust within Android Open Source Project as an alternative to
+            C/C++.
+        </p>
+        <h2>Features of Rust</h2>
+        <p>Rust is a system programming language. Rust provides the following features:</p>
+        <ul>
+            <li>
+                <h3>Zero cost abstraction</h3>
+            </li>
+            <p>In Rust, we can add abstractions without affecting the runtime performance of the code. It improves the
+                code
+                quality and readability of the code without any runtime performance cost.</p>
+
+            <li>
+                <h3>Error messages</h3>
+            </li>
+            <p>In C++ programming, there is an excellent improvement in error messages as compared to GCC. Rust goes one
+                step further in case of clarity. Error messages are displayed with (formatting, colors) and also suggest
+                misspellings in our program.
+            </p>
+
+            <li>
+                <h3>Move semantics</h3>
+            </li>
+            <p>Rust provides this feature that allows a copy operation to be replaced by the move operation when a
+                source object is a temporary object.</p>
+
+            <li>
+                <h3>Threads without data races</h3>
+            </li>
+            <p>A data race is a condition when two or more threads are accessing the same memory location. Rust provides
+                the feature of threads without data races because of the ownership system. Ownership system transmits
+                only the owners of different objects to different threads, and two threads can never own the same
+                variable with write access.</p>
+
+            <li>
+                <h3>Pattern matching</h3>
+            </li>
+            <p>Rust provides the feature of pattern matching. In pattern matching, patterns in Rust are used in
+                conjunction with the 'match' expressions to give more control over the program's control flow. Following
+                are the combinations of some patterns:</p>
+            <ul>
+                <li>Literals</li>
+                    <li>Arrays, enums, structs, or tuples</li>
+                    <li>Variables</li>
+                    <li>Wildcards</li>
+                    <li>Placeholders</li>
+            </ul>
+            <li><h3>Guaranteed memory safety</h3></li>
+            <p>Rust guaranteed the memory safety by using the concept of ownership. Ownership is a middle ground between the memory control of C and the garbage collection of java. In Rust programs, memory space is owned by the variables and temporarily borrowed by the other variables. This allows Rust to provide the memory safety at the compile time without relying on the garbage collector.</p>
+            <li><h3>Efficient C bindings</h3></li>
+            <p>Rust provides the feature of 'Efficient C bindings' means that the Rust language can be able to interoperate with the C language as it talks to itself. Rust provides a 'foreign function interface' to communicate with C API's and leverage its ownership system to guarantee the memory safety at the same time.</p>
+            <li><h3>Safe memory space allocation</h3></li>
+            <p>In Rust, memory management is manual, i.e., the programmer has explicit control over where and when memory is allocated and deallocated. In C language, we allocate the memory using malloc function and then initialize it but Rust refuses these two operations by a single '~' operator. This operator returns the smart pointer to int. A smart pointer is a special kind of value that controls when the object is freed. Smart pointers are "smart" because they not only track where the object is but also know how to clean it up.</p>
+            
+        </ul>
+        <h3>Official link</h3>
+        <p>Below is the official link to Rustlang where you can explore all the details and documentation and all the information on how to get started and mastered:
+        <br><a href="https://www.rust-lang.org/" style="text-decoration: none; text-align: center; font-size: 2rem;"><span class="heading-inverted">rust</span></a>
+    </p>
+
+    </div>
+</body>
+
+</html>

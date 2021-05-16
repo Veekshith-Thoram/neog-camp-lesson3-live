@@ -142,3 +142,13 @@ footer{
 .heading-inverted{
     color: var(--primary-color);
 }
+
+.content{
+    margin: 4rem;
+    padding:2rem;
+    font-size:larger;
+
+}
+.content ol li {
+    margin:0.8rem;
+}
